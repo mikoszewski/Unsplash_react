@@ -1,0 +1,8 @@
+.gallery {
+  background-image: url(/src/img/img3.png);
+}
+
+.gallery img {
+  height: 300px;
+  padding: 10px;
+}
