@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import UserInput from "./components/UserInput";
 import ResultsPage from "./components/ResultsPage";
-import nodeFetch from "../node_modules/node-fetch";
-import { createApi } from "../node_modules/unsplash-js";
+import nodeFetch from "node-fetch";
+import { createApi } from "unsplash-js";
 
 function App() {
   const [resultsPage, setResultsPage] = useState(false);
@@ -41,14 +41,6 @@ function App() {
       const listOfPics = pictures.response.results;
 
       if (!(listOfPics.length === 0)) {
-        // listOfPics.forEach(function (elem, index) {
-        //   wallpaper.insertAdjacentHTML("beforeend", manyPics(elem, index));
-        // });
-        // for (let i = 0; i < listOfPics.length; i++) {
-        //   createEventListener(document.querySelector(`.data-${i}`), openModal);
-        // }
-        // setImageList(listOfPics);
-        // console.log(listOfPics);
         setListOfImages(listOfPics);
       } else {
         alert("No pics found for given word. Please choose another one.");
