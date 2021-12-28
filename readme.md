@@ -1,6 +1,6 @@
 # Unsplash picture search
 
-![Algorithm schema](../src/img/example.jpg)
+![Example picutre](./src/img/example.jpg)
 
 ## Table of contents
 
