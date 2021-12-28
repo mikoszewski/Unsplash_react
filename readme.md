@@ -1,6 +1,6 @@
 # Unsplash picture search
 
-![picutre](.\src\img\example.JPG)
+![picutre](.\src\img\img2.png)
 
 ## Table of contents
 
