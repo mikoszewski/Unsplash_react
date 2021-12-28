@@ -1,5 +1,7 @@
 # Unsplash picture search
 
+![Algorithm schema](../src/img/example.jpg)
+
 ## Table of contents
 
 - [General info](#general-info)
